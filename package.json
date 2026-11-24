@@ -1,0 +1,16 @@
+{
+  "name": "ferry-harbor",
+  "private": true,
+  "type": "module",
+  "description": "Community plugins (Crew) for Ferry",
+  "scripts": {
+    "index": "node sdk/ferry-plugin.ts index crew dist",
+    "test": "node --test sdk/test/*.test.ts"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

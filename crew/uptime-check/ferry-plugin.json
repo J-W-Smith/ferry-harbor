@@ -1,0 +1,14 @@
+{
+  "api": 1,
+  "id": "uptime-check",
+  "name": "Uptime check",
+  "version": "1.0.0",
+  "description": "Checks your websites every few minutes and pushes to all your devices when one goes down or comes back.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:*"],
+  "settings": [
+    { "key": "urls", "label": "Addresses to check, one per line", "type": "text", "required": true, "help": "Separate several with spaces or commas." },
+    { "key": "minutes", "label": "Check every (minutes)", "type": "number", "default": 5 }
+  ]
+}

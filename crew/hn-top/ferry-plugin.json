@@ -1,0 +1,14 @@
+{
+  "api": 1,
+  "id": "hn-top",
+  "name": "Hacker News top stories",
+  "version": "1.0.0",
+  "description": "Pushes Hacker News front-page stories once they pass a score you choose.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:hacker-news.firebaseio.com"],
+  "settings": [
+    { "key": "minScore", "label": "Minimum points", "type": "number", "default": 300 },
+    { "key": "minutes", "label": "Check every (minutes)", "type": "number", "default": 30 }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "v": 1,
+  "plugins": [
+    {
+      "id": "hn-top",
+      "name": "Hacker News top stories",
+      "version": "1.0.0",
+      "description": "Pushes Hacker News front-page stories once they pass a score you choose.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:hacker-news.firebaseio.com"
+      ],
+      "bundle": "hn-top-1.0.0.json",
+      "sha256": "3b121410af6d5061105864374b812ea243abe3a74b5adc4a8c9a9a58b90d36b4"
+    },
+    {
+      "id": "uptime-check",
+      "name": "Uptime check",
+      "version": "1.0.0",
+      "description": "Checks your websites every few minutes and pushes to all your devices when one goes down or comes back.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:*"
+      ],
+      "bundle": "uptime-check-1.0.0.json",
+      "sha256": "b15262d2f097d2220bd2c68e03ee1d2348b144991067dabcc04a886cdbad685a"
+    }
+  ]
+}
