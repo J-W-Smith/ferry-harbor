@@ -1,0 +1,14 @@
+{
+  "api": 1,
+  "id": "rss",
+  "name": "RSS and Atom feeds",
+  "version": "1.0.0",
+  "description": "Follows the RSS and Atom feeds (or sites) you list and pushes each new post as a link.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:*"],
+  "settings": [
+    { "key": "feeds", "label": "Feeds or sites to follow, one per line", "type": "text", "required": true, "help": "Feed addresses or plain site addresses (the feed is found for you). Separate several with spaces, commas or new lines." },
+    { "key": "minutes", "label": "Check every (minutes)", "type": "number", "default": 30, "help": "At least 10." }
+  ]
+}
