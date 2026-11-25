@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Comics",
+      "channels": [
+        { "id": "xkcd", "name": "xkcd", "description": "Every new xkcd comic.", "feed": "https://xkcd.com/atom.xml", "site": "https://xkcd.com" },
+        { "id": "the-oatmeal", "name": "The Oatmeal", "description": "New comics and stories from The Oatmeal.", "feed": "https://theoatmeal.com/feed/rss", "site": "https://theoatmeal.com" },
+        { "id": "smbc", "name": "Saturday Morning Breakfast Cereal", "description": "The daily SMBC comic.", "feed": "https://www.smbc-comics.com/comic/rss", "site": "https://www.smbc-comics.com" },
+        { "id": "cyanide-and-happiness", "name": "Cyanide & Happiness", "description": "New Cyanide & Happiness comics from Explosm.", "feed": "https://explosm.net/rss.xml", "site": "https://explosm.net" },
+        { "id": "loading-artist", "name": "Loading Artist", "description": "New Loading Artist comics.", "feed": "https://loadingartist.com/index.xml", "site": "https://loadingartist.com" },
+        { "id": "poorly-drawn-lines", "name": "Poorly Drawn Lines", "description": "New Poorly Drawn Lines comics.", "feed": "https://poorlydrawnlines.com/feed/", "site": "https://poorlydrawnlines.com" },
+        { "id": "dinosaur-comics", "name": "Dinosaur Comics", "description": "Each new Dinosaur Comics strip.", "feed": "https://www.qwantz.com/rssfeed.php", "site": "https://www.qwantz.com" },
+        { "id": "questionable-content", "name": "Questionable Content", "description": "Each new Questionable Content strip.", "feed": "https://www.questionablecontent.net/QCRSS.xml", "site": "https://www.questionablecontent.net" }
+      ]
+    },
+    {
+      "name": "Tech",
+      "channels": [
+        { "id": "hacker-news-front-page", "name": "Hacker News front page", "description": "Stories as they reach the Hacker News front page, via hnrss.org.", "feed": "https://hnrss.org/frontpage", "site": "https://news.ycombinator.com" },
+        { "id": "ars-technica", "name": "Ars Technica", "description": "All new Ars Technica articles.", "feed": "https://feeds.arstechnica.com/arstechnica/index", "site": "https://arstechnica.com" },
+        { "id": "the-verge", "name": "The Verge", "description": "The latest stories from The Verge.", "feed": "https://www.theverge.com/rss/index.xml", "site": "https://www.theverge.com" },
+        { "id": "daring-fireball", "name": "Daring Fireball", "description": "Posts and linked items from Daring Fireball.", "feed": "https://daringfireball.net/feeds/main", "site": "https://daringfireball.net" },
+        { "id": "android-police", "name": "Android Police", "description": "Android news and reviews from Android Police.", "feed": "https://www.androidpolice.com/feed/", "site": "https://www.androidpolice.com" },
+        { "id": "engadget", "name": "Engadget", "description": "Gadget and tech news from Engadget.", "feed": "https://www.engadget.com/rss.xml", "site": "https://www.engadget.com" }
+      ]
+    },
+    {
+      "name": "Gaming",
+      "channels": [
+        { "id": "humble-bundle-blog", "name": "Humble Bundle blog", "description": "New bundles and announcements on the Humble Bundle blog.", "feed": "https://blog.humblebundle.com/feed/", "site": "https://blog.humblebundle.com" },
+        { "id": "steam-news", "name": "Steam news", "description": "News posts from the Steam store.", "feed": "https://store.steampowered.com/feeds/news/", "site": "https://store.steampowered.com/news/" },
+        { "id": "pc-gamer", "name": "PC Gamer", "description": "PC gaming news, reviews and guides from PC Gamer.", "feed": "https://www.pcgamer.com/rss/", "site": "https://www.pcgamer.com" },
+        { "id": "rock-paper-shotgun", "name": "Rock Paper Shotgun", "description": "PC gaming news and features from Rock Paper Shotgun.", "feed": "https://www.rockpapershotgun.com/feed", "site": "https://www.rockpapershotgun.com" },
+        { "id": "eurogamer", "name": "Eurogamer", "description": "Game news and reviews from Eurogamer.", "feed": "https://www.eurogamer.net/feed", "site": "https://www.eurogamer.net" },
+        { "id": "polygon", "name": "Polygon", "description": "Games and entertainment coverage from Polygon.", "feed": "https://www.polygon.com/feed/", "site": "https://www.polygon.com" }
+      ]
+    },
+    {
+      "name": "Science",
+      "channels": [
+        { "id": "nasa-news", "name": "NASA news releases", "description": "Official news releases from NASA.", "feed": "https://www.nasa.gov/news-release/feed/", "site": "https://www.nasa.gov" },
+        { "id": "quanta-magazine", "name": "Quanta Magazine", "description": "Math, physics, biology and computer science stories from Quanta.", "feed": "https://www.quantamagazine.org/feed/", "site": "https://www.quantamagazine.org" },
+        { "id": "sciencedaily", "name": "ScienceDaily", "description": "The latest research news across all fields from ScienceDaily.", "feed": "https://www.sciencedaily.com/rss/all.xml", "site": "https://www.sciencedaily.com" },
+        { "id": "nature", "name": "Nature", "description": "New papers and news from the journal Nature.", "feed": "https://www.nature.com/nature.rss", "site": "https://www.nature.com/nature" },
+        { "id": "phys-org", "name": "Phys.org", "description": "Science and technology news from Phys.org.", "feed": "https://phys.org/rss-feed/", "site": "https://phys.org" }
+      ]
+    },
+    {
+      "name": "Dev",
+      "channels": [
+        { "id": "github-blog", "name": "The GitHub Blog", "description": "Product news and engineering posts from GitHub.", "feed": "https://github.blog/feed/", "site": "https://github.blog" },
+        { "id": "nodejs-releases", "name": "Node.js releases", "description": "Every new Node.js release.", "feed": "https://nodejs.org/en/feed/releases.xml", "site": "https://nodejs.org" },
+        { "id": "rust-blog", "name": "Rust Blog", "description": "Release notes and news from the Rust project.", "feed": "https://blog.rust-lang.org/feed.xml", "site": "https://blog.rust-lang.org" },
+        { "id": "python-insider", "name": "Python Insider", "description": "Python release and core development news.", "feed": "https://blog.python.org/feeds/posts/default", "site": "https://blog.python.org" },
+        { "id": "go-blog", "name": "The Go Blog", "description": "Releases and articles from the Go team.", "feed": "https://go.dev/blog/feed.atom", "site": "https://go.dev/blog" },
+        { "id": "mozilla-hacks", "name": "Mozilla Hacks", "description": "Web platform articles from Mozilla.", "feed": "https://hacks.mozilla.org/feed/", "site": "https://hacks.mozilla.org" },
+        { "id": "chrome-developers-blog", "name": "Chrome for Developers blog", "description": "New web platform features and Chrome release posts.", "feed": "https://developer.chrome.com/static/blog/feed.xml", "site": "https://developer.chrome.com/blog" }
+      ]
+    },
+    {
+      "name": "News",
+      "channels": [
+        { "id": "bbc-world", "name": "BBC News: World", "description": "World headlines from BBC News.", "feed": "https://feeds.bbci.co.uk/news/world/rss.xml", "site": "https://www.bbc.co.uk/news/world" },
+        { "id": "npr-news", "name": "NPR News", "description": "Top news stories from NPR.", "feed": "https://feeds.npr.org/1001/rss.xml", "site": "https://www.npr.org" },
+        { "id": "al-jazeera", "name": "Al Jazeera", "description": "Breaking and world news from Al Jazeera English.", "feed": "https://www.aljazeera.com/xml/rss/all.xml", "site": "https://www.aljazeera.com" },
+        { "id": "dw-news", "name": "DW News", "description": "All English-language stories from Deutsche Welle.", "feed": "https://rss.dw.com/rdf/rss-en-all", "site": "https://www.dw.com/en" },
+        { "id": "nyt-world", "name": "The New York Times: World", "description": "World news headlines from The New York Times.", "feed": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "site": "https://www.nytimes.com/section/world" }
+      ]
+    }
+  ]
+}
