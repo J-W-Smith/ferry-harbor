@@ -1,0 +1,6 @@
+{"response":{"store_items":[
+{"item_type":0,"id":47810,"success":1,"visible":true,"name":"Dragon Age: Origins - Ultimate Edition","appid":47810,"type":0,"best_purchase_option":{"packageid":6517,"final_price_in_cents":"599","original_price_in_cents":"2999","formatted_final_price":"$5.99","formatted_original_price":"$29.99","discount_pct":80}},
+{"item_type":0,"id":233860,"success":1,"visible":true,"name":"Kenshi","appid":233860,"type":0,"best_purchase_option":{"packageid":593144,"final_price_in_cents":"1199","original_price_in_cents":"2999","formatted_final_price":"$11.99","formatted_original_price":"$29.99","discount_pct":60}},
+{"item_type":0,"id":233150,"success":1,"visible":true,"name":"LUFTRAUSERS","appid":233150,"type":0,"best_purchase_option":{"packageid":34943,"final_price_in_cents":"899","original_price_in_cents":"999","formatted_final_price":"$8.99","formatted_original_price":"$9.99","discount_pct":10}},
+{"item_type":0,"id":400,"success":15,"visible":false,"name":""}
+]}}

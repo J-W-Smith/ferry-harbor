@@ -1,0 +1,16 @@
+{
+  "api": 1,
+  "id": "steam-wishlist",
+  "name": "Wishlist sales for Steam",
+  "version": "1.0.0",
+  "description": "Pushes when games on your public Steam wishlist go on sale at or above the discount you choose. Unofficial; not made by or affiliated with Valve.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:api.steampowered.com", "net:steamcommunity.com"],
+  "settings": [
+    { "key": "steamId", "label": "Steam profile", "type": "text", "required": true, "help": "Your SteamID64 (17 digits), your profile link, or your custom URL name. Your wishlist must be public: Steam privacy settings → Game details → Public." },
+    { "key": "minDiscount", "label": "Minimum discount (%)", "type": "number", "default": 20 },
+    { "key": "country", "label": "Store country", "type": "text", "default": "us", "help": "Two-letter country code for prices and currency, like us, gb or de." },
+    { "key": "hours", "label": "Check every (hours)", "type": "number", "default": 6, "help": "At least 2." }
+  ]
+}
