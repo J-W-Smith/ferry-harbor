@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.tornado.1",
+      "type": "Feature",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.tornado.1",
+        "areaDesc": "Dallas, TX; Tarrant, TX; Collin, TX",
+        "sent": "2026-11-25T14:00:00-06:00",
+        "effective": "2026-11-25T14:00:00-06:00",
+        "expires": "2026-11-25T14:45:00-06:00",
+        "ends": "2026-11-25T14:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "severity": "Extreme",
+        "event": "Tornado Warning",
+        "headline": "Tornado Warning issued November 25 at 2:00PM CST until November 25 at 2:45PM CST by NWS Fort Worth TX",
+        "description": "At 200 PM CST, a severe thunderstorm capable of producing a tornado was located near Arlington, moving northeast at 35 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest floor of a sturdy building.",
+        "references": []
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.wind.1",
+      "type": "Feature",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.wind.1",
+        "areaDesc": "Dallas, TX",
+        "sent": "2026-11-25T10:00:00-06:00",
+        "expires": "2026-11-25T18:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "severity": "Moderate",
+        "event": "Wind Advisory",
+        "headline": "Wind Advisory until 6PM CST",
+        "description": "South winds 20 to 30 mph with gusts up to 45 mph.",
+        "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects. Tree limbs could be blown down and a few power outages may result, so keep devices charged and stay clear of fallen lines.",
+        "web": "https://www.weather.gov/fwd",
+        "references": []
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fog.1",
+      "type": "Feature",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.fog.1",
+        "areaDesc": "Collin, TX",
+        "sent": "2026-11-25T06:00:00-06:00",
+        "expires": "2026-11-25T16:00:00-06:00",
+        "ends": "2026-11-25T16:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "severity": "Minor",
+        "event": "Dense Fog Advisory",
+        "headline": "Dense Fog Advisory",
+        "description": "Visibility one quarter mile or less.",
+        "instruction": null,
+        "references": []
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.test.1",
+      "type": "Feature",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.test.1",
+        "areaDesc": "Dallas, TX",
+        "sent": "2026-11-25T13:00:00-06:00",
+        "expires": "2026-11-25T23:00:00-06:00",
+        "ends": null,
+        "status": "Test",
+        "messageType": "Alert",
+        "severity": "Extreme",
+        "event": "Test Message",
+        "headline": "This is a test",
+        "description": "Monitoring message only.",
+        "instruction": null,
+        "references": []
+      }
+    }
+  ]
+}
