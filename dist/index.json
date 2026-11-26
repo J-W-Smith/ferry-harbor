@@ -2,6 +2,19 @@
   "v": 1,
   "plugins": [
     {
+      "id": "github-notify",
+      "name": "GitHub notifications",
+      "version": "1.0.0",
+      "description": "Pushes your GitHub notifications (review requests, mentions, assignments, CI results) to all your devices.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:api.github.com"
+      ],
+      "bundle": "github-notify-1.0.0.json",
+      "sha256": "baa8076dd3b0004c4d7925d01f036dbd5aa0b600e3d67274a41fe1c40917632d"
+    },
+    {
       "id": "hn-top",
       "name": "Hacker News top stories",
       "version": "1.0.0",
@@ -15,6 +28,46 @@
       "sha256": "3b121410af6d5061105864374b812ea243abe3a74b5adc4a8c9a9a58b90d36b4"
     },
     {
+      "id": "page-watch",
+      "name": "Page watch",
+      "version": "1.0.0",
+      "description": "Watches web pages you list and pushes a link when their text changes, or when they start to contain a phrase you choose.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:*"
+      ],
+      "bundle": "page-watch-1.0.0.json",
+      "sha256": "27d4278102cb5fbdd005fa52a652e45ecec1e1c3558cc0787dc077d23bd8254c"
+    },
+    {
+      "id": "rss",
+      "name": "RSS and Atom feeds",
+      "version": "1.0.0",
+      "description": "Follows the RSS and Atom feeds (or sites) you list and pushes each new post as a link.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:*"
+      ],
+      "bundle": "rss-1.0.0.json",
+      "sha256": "0fa5f52be02800420f9f15c7bf2c89215152762df015b0c69a8535b3d9941294"
+    },
+    {
+      "id": "steam-wishlist",
+      "name": "Wishlist sales for Steam",
+      "version": "1.0.0",
+      "description": "Pushes when games on your public Steam wishlist go on sale at or above the discount you choose. Unofficial; not made by or affiliated with Valve.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:api.steampowered.com",
+        "net:steamcommunity.com"
+      ],
+      "bundle": "steam-wishlist-1.0.0.json",
+      "sha256": "51c77ca9c99faebcc0db57e5b6ca9067963f0120a791bc195c8dba7d5064a838"
+    },
+    {
       "id": "uptime-check",
       "name": "Uptime check",
       "version": "1.0.0",
@@ -26,6 +79,19 @@
       ],
       "bundle": "uptime-check-1.0.0.json",
       "sha256": "b15262d2f097d2220bd2c68e03ee1d2348b144991067dabcc04a886cdbad685a"
+    },
+    {
+      "id": "weather-alerts",
+      "name": "US severe weather alerts",
+      "version": "1.0.0",
+      "description": "Pushes official National Weather Service alerts for your US location or state, using the free weather.gov API.",
+      "author": "Ferry",
+      "permissions": [
+        "send",
+        "net:api.weather.gov"
+      ],
+      "bundle": "weather-alerts-1.0.0.json",
+      "sha256": "df42c1d5376e5adc75d126ebcae64071c155e359bd876857895b3d1187b8d6a0"
     }
   ]
 }
