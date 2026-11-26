@@ -1,0 +1,15 @@
+{
+  "api": 1,
+  "id": "page-watch",
+  "name": "Page watch",
+  "version": "1.0.0",
+  "description": "Watches web pages you list and pushes a link when their text changes, or when they start to contain a phrase you choose.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:*"],
+  "settings": [
+    { "key": "pages", "label": "Pages to watch, one per line", "type": "text", "required": true, "help": "Each must start with http:// or https://. Separate several with spaces, commas or new lines." },
+    { "key": "contains", "label": "Only push when the page newly contains", "type": "text", "help": "Optional, like \"in stock\" or \"tickets on sale\". Leave empty to push on any change. Not case-sensitive." },
+    { "key": "minutes", "label": "Check every (minutes)", "type": "number", "default": 30, "help": "At least 5." }
+  ]
+}
