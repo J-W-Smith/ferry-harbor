@@ -1,0 +1,15 @@
+{
+  "api": 1,
+  "id": "weather-alerts",
+  "name": "US severe weather alerts",
+  "version": "1.0.0",
+  "description": "Pushes official National Weather Service alerts for your US location or state, using the free weather.gov API.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:api.weather.gov"],
+  "settings": [
+    { "key": "location", "label": "Location (lat,lon or state code)", "type": "text", "required": true, "help": "Right-click your spot in Google Maps or OpenStreetMap and copy the coordinates, like 32.7767,-96.7970. Or enter a two-letter state code like TX for the whole state." },
+    { "key": "minSeverity", "label": "Lowest severity to push", "type": "text", "default": "Moderate", "help": "One of Minor, Moderate, Severe or Extreme." },
+    { "key": "minutes", "label": "Check every (minutes)", "type": "number", "default": 5, "help": "At least 2." }
+  ]
+}
