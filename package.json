@@ -5,7 +5,7 @@
   "description": "Community plugins (Crew) for Ferry",
   "scripts": {
     "index": "node sdk/ferry-plugin.ts index crew dist",
-    "test": "node --test sdk/test/*.test.ts"
+    "test": "node --test sdk/test/*.test.ts crew/*/*.test.js"
   },
   "dependencies": {
     "@noble/hashes": "^2.4.0"

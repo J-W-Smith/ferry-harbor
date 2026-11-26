@@ -1,0 +1,15 @@
+{
+  "api": 1,
+  "id": "github-notify",
+  "name": "GitHub notifications",
+  "version": "1.0.0",
+  "description": "Pushes your GitHub notifications (review requests, mentions, assignments, CI results) to all your devices.",
+  "author": "Ferry",
+  "license": "MIT",
+  "permissions": ["send", "net:api.github.com"],
+  "settings": [
+    { "key": "token", "label": "GitHub token", "type": "password", "required": true, "help": "Create one at github.com/settings/tokens with only notifications read access (classic token: the notifications scope). It is only ever sent to api.github.com." },
+    { "key": "reasons", "label": "Only these reasons (optional)", "type": "text", "help": "Comma list, e.g. review_requested, mention, assign, ci_activity. Leave empty for all." },
+    { "key": "minutes", "label": "Check every (minutes)", "type": "number", "default": 5, "help": "At least 2." }
+  ]
+}
