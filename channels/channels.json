@@ -22,7 +22,8 @@
         { "id": "the-verge", "name": "The Verge", "description": "The latest stories from The Verge.", "feed": "https://www.theverge.com/rss/index.xml", "site": "https://www.theverge.com" },
         { "id": "daring-fireball", "name": "Daring Fireball", "description": "Posts and linked items from Daring Fireball.", "feed": "https://daringfireball.net/feeds/main", "site": "https://daringfireball.net" },
         { "id": "android-police", "name": "Android Police", "description": "Android news and reviews from Android Police.", "feed": "https://www.androidpolice.com/feed/", "site": "https://www.androidpolice.com" },
-        { "id": "engadget", "name": "Engadget", "description": "Gadget and tech news from Engadget.", "feed": "https://www.engadget.com/rss.xml", "site": "https://www.engadget.com" }
+        { "id": "engadget", "name": "Engadget", "description": "Gadget and tech news from Engadget.", "feed": "https://www.engadget.com/rss.xml", "site": "https://www.engadget.com" },
+        { "id": "ktz-blog", "name": "ktz.blog", "description": "Self-hosting, homelab and Linux posts from Alex Kretzschmar.", "feed": "https://blog.ktz.me/rss/", "site": "https://blog.ktz.me" }
       ]
     },
     {
